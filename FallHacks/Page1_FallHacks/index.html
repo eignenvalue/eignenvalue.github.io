@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local CSV Storage and Graph</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="./Page1.css">
+</head>
+<body>
+    <div class="container">
+        <div class="leaf-bg">
+            <img src="leaf.png" alt="Leaf Image" id="leafImage">
+        </div>
+        <div id="content">
+            <br><br><br><br><br>
+            <h2>How are you feeling?</h2>
+            <div id="rating">
+                <table style="text-align: left; display: inline-block;">
+                    <tr>
+                        <td>
+                        <label>
+                            <input type="radio" name="feedback" value="5"> 5 (Excellant)
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label>
+                            <input type="radio" name="feedback" value="4"> 4 (Good)
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label>
+                            <input type="radio" name="feedback" value="3"> 3 (Neutral)
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label>
+                            <input type="radio" name="feedback" value="2"> 2 (Not Good)
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        <label>
+                            <input type="radio" name="feedback" value="1"> 1 (Horrible)
+                        </label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button id="submit">Submit Rating</button>
+            </div>
+            <div id="quote" class="hidden">
+                <br><br><br><br><br><br><br><br><br><br>
+                <p>"Your quote goes here."</p><a href="../p2.html">Resources</a> <br><br><br>
+            </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="graph-container">
+        <h3>Last Week's Moods</h3>
+        <canvas id="rating-graph"></canvas>
+    </div>
+    <footer><a href="../p2.html">Resources</a></footer>
+    <script src="./Page1.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    background-image: url(../images/leaves.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-size: 5em;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+th{
+   font-size: 2em;
+   font-family:Arial, Helvetica, sans-serif
+}
+

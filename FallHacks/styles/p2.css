@@ -1,0 +1,44 @@
+body {
+    background-image: url(../images/leaves1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 3em;
+}
+div {
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom{
+    font-size: medium;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 50px 0; /* Add padding for better visibility */
+    margin-left: 25px;
+}
+
+img {
+    height: 70px;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
